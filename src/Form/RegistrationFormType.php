@@ -65,7 +65,7 @@ class RegistrationFormType extends AbstractType
                            'image/jpeg',
                            'image/jpg',
                        ],
-                       'mimeTypesMessage' => 'Please upload a valid image file',
+                       'mimeTypesMessage' => 'Please upload a valid photo',
                     ])
                 ],
             ])

@@ -10,6 +10,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use App\Service\FileUploader;
 
 #[Route('/test')]
 class TestController extends AbstractController
@@ -23,7 +24,7 @@ class TestController extends AbstractController
     }
 
     #[Route('/new', name: 'app_test_new', methods: ['GET', 'POST'])]
-    public function new(Request $request, EntityManagerInterface $entityManager): Response
+    public function new(Request $request, EntityManagerInterface $entityManager, FileUploader $fileUploader): Response
     {
         $test = new Test();
         $form = $this->createForm(TestType::class, $test);

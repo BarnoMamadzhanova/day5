@@ -3,7 +3,9 @@
 {% block title %}Register{% endblock %}
 
 {% block body %}
-    <h1>Register</h1>
+<div class="main">
+    <div class="container my-5">
+    <h3 class="header">Register</h3>
 
     {{ form_errors(registrationForm) }}
 
@@ -17,6 +19,9 @@
         }) }}
         {{ form_row(registrationForm.agreeTerms) }}
 
-        <button type="submit" class="btn">Register</button>
+        <button type="submit" class="btn btnRegister">Register</button>
     {{ form_end(registrationForm) }}
+    </div>
+</div>
+
 {% endblock %}

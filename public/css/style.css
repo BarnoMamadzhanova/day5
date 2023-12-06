@@ -1,0 +1,70 @@
+
+.myNav{
+    background-color: #8D6B94;
+}
+
+.myNav a {
+    color: #FFF4E9;
+}
+
+.myNav a:hover{
+    color: rgba(2, 2, 88, 0.832);
+}
+
+.loginImg{
+    width: 45px;
+    height: 40px;
+}
+
+.navFlex{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.loginText{
+    color: #FFF4E9;
+}
+
+.logout{
+    text-decoration: none;
+}
+
+.header{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #8d6b9439;
+    color: rgba(2, 2, 88, 0.832);
+}
+
+.btnRegister{
+    width: 120px;
+    padding: 5px;
+    background-color: #8D6B94;
+    color: #FFF4E9;
+}
+
+.btnRegister:hover{
+    background-color: #B185A7;
+    color: rgba(2, 2, 88, 0.832);
+}
+
+.btnLogout{
+    width: 120px;
+    padding: 5px;
+    background-color: #B185A7;
+    color: #FFF4E9;
+}
+
+.btnLogout:hover{
+    width: 120px;
+    padding: 5px;
+    background-color: #B185A7;
+    color: rgba(2, 2, 88, 0.832);
+}
+
